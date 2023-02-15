@@ -1,0 +1,84 @@
+:root {
+    --Moderateviolet: hsl(263, 55%, 52%);
+    --Verydarkgrayishblue: hsl(217, 19%, 35%);
+    --Verydarkblackishblue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(0, 0%, 81%);
+    --Lightgrayishblue: hsl(210, 46%, 95%);
+}
+body {
+    background-color: var(--Lightgrayishblue);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 100px 180px 100px;
+    font-size: 13px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--White);
+    column-gap: 30px;
+    row-gap: 30px;
+    
+}
+.daniel {
+    padding: 30px;
+    background-color:var(--Moderateviolet) ;
+    grid-column: span 2;
+    border-radius: 10px;
+}
+.walters {
+    padding: 30px;
+    background-color: var(--Verydarkgrayishblue);
+    border-radius: 10px;
+}
+.kira {
+    padding: 30px;
+    background-color: var(--White);
+    color: var(--Verydarkgrayishblue);
+    grid-row: span 2;
+    border-radius: 10px;
+}
+.harmon {
+    padding: 30px;
+    background-color: var(--White);
+    color: var(--Verydarkgrayishblue);
+    border-radius: 10px;
+}
+.abrams {
+    padding: 30px;
+    background-color: var(--Verydarkblackishblue);
+    grid-column: span 2;
+    border-radius: 10px;
+}
+.profile {
+    display: flex;
+}
+.profpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid var(--White);
+    margin-top: 10px;
+}
+.img {
+    width: 30px;
+    height: 30px;
+}
+.name {
+    margin-left: 20px;
+}
+.grad {
+    font-weight: lighter;
+}
+.intro {
+    font-size: 18px;
+}
+.quote {
+    color: var(--Lightgray);
+}
+.svg {
+    position: absolute;
+    left: 500px;
+    top: 110px;
+}
